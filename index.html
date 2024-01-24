@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/css/uikit.min.css"/>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="style-background">
+    <header class="main-header">
+        <nav class="main-nav">
+            <section class="nav-container-logo">
+                <h1 class="main-logo">testLab</h1>
+            </section>
+            <div class="hamburger-menu">
+                <input class="hidden" id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="#">Как это работает</a></li>
+                    <li><a class="menu__item" href="#">3-й блок</a></li>
+                    <li><a class="menu__item" href="#">Вопросы и ответы</a></li>
+                    <li><a class="menu__item" href="#">Форма</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="header-content">
+            <h2 class="header-content-title hidden">Все сведения</h2>
+            <section class="header-motivation">
+                <h2 class="motivation-title hidden">Мотивация</h2>
+                <div class="motivation-text">
+                    <b>Говорят, никогда не поздно сменить профессию</b>
+                    <span class="motivation-description">Сделай круто тестовое задание и у тебя получится</span></div>
+                <div class="motivation-buttons">
+                    <button class="motivation-button">Проще простого</button>
+                </div>
+            </section>
+        </section>
+    </header>
+</div>
+<main>
+    <section class="process">
+        <h2 class="process-title">Как это работает</h2>
+        <ul class="process-items">
+            <li class="process-item">
+                <img src="img/waiting.svg" alt="курсос" class="process-item-img">
+                <section class="process-item-text">
+                    <h3 class="item-text-title">Прочитай задание внимательно</h3>
+                    <p class="item-text-description">Думаю у тебя не займет это больше двух-трех минут</p>
+                </section>
+            </li>
+            <li class="process-item">
+                <img src="img/delivery-truck.svg" alt="грузовик" class="process-item-img">
+                <section class="process-item-text">
+                    <h3 class="item-text-title">Изучи весь макет заранее</h3>
+                    <p class="item-text-description">Подумай как это будет работать на разных разрешениях и при скролле</p>
+                </section>
+            </li>
+            <li class="process-item">
+                <img src="img/secure.svg" alt="stonks" class="process-item-img">
+                <section class="process-item-text">
+                    <h3 class="item-text-title">Сделай хорошо</h3>
+                    <p class="item-text-description">Чтобы мы могли тебе доверить подобные задачи в будущем</p>
+                </section>
+            </li>
+            <li class="process-item">
+                <img src="img/money-bags.svg" alt="мешки с деньгами" class="process-item-img">
+                <section class="process-item-text">
+                    <h3 class="item-text-title">Получи предложение</h3>
+                    <p class="item-text-description">Ну тут все просто, не я придумал правила, но думаю так и будет)))</p>
+                </section>
+            </li>
+        </ul>
+    </section>
+    <section class="credit">
+        <h2 class="credit-title hidden">Статистика по кредитам</h2>
+        <div class="credit-text-container">
+            <b>Круто, ты дошел до третьего блока</b>
+            <p class="credit-description">63% опрошенных пользовались кредитами из-за того, что не могли покрыть непредвиденные расходы свыше 15 000 ₽.</p>
+            <p class="credit-description">
+                Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах.</p>
+        </div>
+        <img src="img/Credit-man.svg" alt="Парень и грузовик" class="credit-img">
+    </section>
+    <section class="comments">
+        <h2 class="comments-title">Отзывы</h2>
+        <div class="comments-slider" uk-slider="center: true">
+            <div class="uk-position-relative uk-margin-small-top uk-visible-toggle uk-light" tabindex="-1">
+                <ul class="slider-items uk-slider-items  uk-grid ">
+                    <li class="card-li">
+                        <div class="uk-card card-item uk-card-default">
+                            <div class="card-item-user">
+                                <img src="img/user-img-default.svg" alt="user" class="card-item-img">
+                                <div class="card-item-userdata">
+                                    <span class="card-item-username">Константинов Михаил Павлович</span>
+                                    <span class="card-item-city">Санкт-Петербург</span>
+                                </div>
+                            </div>
+                            <p class="card-item-description">
+                                Каждый из нас понимает очевидную вещь: перспективное
+                                знание для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт
+                                мы упускаем, что активно развивающиеся страны третьего мира призваны к ответу.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card-li">
+                        <div class="uk-card card-item uk-card-default">
+                            <div class="card-item-user">
+                                <img src="img/user-img-mihalich.svg" alt="user" class="card-item-img">
+                                <div class="card-item-userdata">
+                                    <span class="card-item-username">Иван Иванов</span>
+                                    <span class="card-item-city">Санкт-Петербург</span>
+                                </div>
+                            </div>
+                            <p class="card-item-description">
+                                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы упускаем,
+                                что активно развивающиеся страны третьего мира призваны к ответу.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card-li">
+                        <div class="uk-card card-item uk-card-default">
+                            <div class="card-item-user">
+                                <img src="img/user-img-kamaz.svg" alt="user" class="card-item-img">
+                                <div class="card-item-userdata">
+                                    <span class="card-item-username">Артем Корнилов</span>
+                                    <span class="card-item-city">Самара</span>
+                                </div>
+                            </div>
+                            <p class="card-item-description">
+                                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы упускаем,
+                                что активно развивающиеся страны третьего мира призваны к ответу.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <a style="color: #2A6CEA;opacity: 1;" class="slider-arrow uk-position-center-left uk-position-small uk-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a style="color: #2A6CEA;opacity: 1;" class="slider-arrow uk-position-center-right uk-position-small uk-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+            </div>
+            <style>
+
+            </style>
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+        </div>
+    </section>
+</main>
+<footer class="main-footer">
+    <p>© 2021 Лаборатория интернет</p>
+</footer>
+<script src="js/script.js"></script>
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit-icons.min.js"></script>
+
+</body>
+</html>
